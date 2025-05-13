@@ -1,0 +1,41 @@
+#######################################
+# Keywords for ROKOR_Mesh_FLP Library
+#######################################
+
+ROKOR_Mesh	KEYWORD1
+
+# методов класса
+begin	KEYWORD2
+end	KEYWORD2
+setEspNowPmk	KEYWORD2
+forceRoleNode	KEYWORD2
+forceRoleGateway	KEYWORD2
+update	KEYWORD2
+sendMessage	KEYWORD2
+setReceiveCallback	KEYWORD2
+setGatewayStatusCallback	KEYWORD2
+setNodeStatusCallback	KEYWORD2
+getRole	KEYWORD2
+getPjonId	KEYWORD2
+getBusId	KEYWORD2
+getNetworkName	KEYWORD2
+isNetworkActive	KEYWORD2
+isGatewayConnected	KEYWORD2
+setDiscoveryTimeout	KEYWORD2
+setGatewayContentionWindow	KEYWORD2
+setGatewayAnnounceInterval	KEYWORD2
+setNodePingGatewayInterval	KEYWORD2
+setNodeMaxGatewayPingAttempts	KEYWORD2
+
+# Enum ROKOR_Mesh_Role
+ROLE_UNINITIALIZED	LITERAL1
+ROLE_DISCOVERING	LITERAL1
+ROLE_NODE	LITERAL1
+ROLE_GATEWAY	LITERAL1
+ROLE_ERROR	LITERAL1
+
+# Констант
+ROKOR_MESH_DEFAULT_GATEWAY_ID	LITERAL1
+ROKOR_MESH_MAX_NETWORK_NAME_LEN	LITERAL1
+ROKOR_MESH_ESPNOW_PMK_LEN	LITERAL1
+ROKOR_MESH_MAX_PAYLOAD_SIZE	LITERAL1
